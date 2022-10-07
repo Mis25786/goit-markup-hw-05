@@ -68,7 +68,9 @@
       <section class="promo">
         <div class="container promo-box">
           <h1 class="promo-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="promo-button" type="button">Замовити послугу</button>
+          <button class="promo-button" type="button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
 
@@ -540,5 +542,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-btn" data-modal-close>
+          <svg class="icon-close-btn" width="18px" height="18px">
+            <use href="./sprite.svg#icon-close-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
