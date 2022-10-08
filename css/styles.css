@@ -824,13 +824,17 @@ nav {
 
 /* модальне вікно */
 
-.backdrop {
+/* .backdrop {
+  position: relative;
+} */
+
+/* .backdrop {
   position: fixed;
   top: 0;
-  /* bottom: 0; */
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--primary-color-bacground);
+  background-color: #ffffff;
   transition: opacity 250ms linear, visibility 250ms;
 }
 
@@ -877,4 +881,12 @@ nav {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}  */
+
+.backdrop {
+  position: fixed;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: #ffffff;
 }
